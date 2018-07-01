@@ -1,5 +1,16 @@
 //define functions here
 
+ar getIt=$('p').on('click', function () { 
++  alert("Hey!") 
++  return; 
++}) 
++
++var frameIt=$('img').on('load', 
++function() {
++  add('.tasty'); 
++  img.style.bordercolor='red';
++})
+
 $(document).ready(function(){
 
 // call functions here
