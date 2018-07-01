@@ -2,9 +2,9 @@
 
 function getIt() {
   $('p').on("click", function () {
-+    alert("Hey!");
-+  }
-+)}
+    alert("Hey!");
+  }
+)}
 +
 +function frameIt () {
 +  $('img').on("load", function () {
