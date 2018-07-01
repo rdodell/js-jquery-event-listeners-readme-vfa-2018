@@ -33,7 +33,7 @@ $(document).ready(function(){
 });
 
 getIt.on('click') 
-+
+
 +$('img').on('load', 
 +function() {
 +  add('.tasty'); 
