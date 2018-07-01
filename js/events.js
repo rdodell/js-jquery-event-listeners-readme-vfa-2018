@@ -34,9 +34,9 @@ $(document).ready(function(){
 
 getIt.on('click') 
 
-+$('img').on('load', 
-+function() {
-+  add('.tasty'); 
-+  img.style.bordercolor='red';
-+})
-+
+$('img').on('load', 
+function() {
+  add('.tasty'); 
+  img.style.bordercolor='red';
+})
+
