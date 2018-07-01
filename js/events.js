@@ -16,3 +16,12 @@ $(document).ready(function(){
 // call functions here
 
 });
+
+getIt.on('click') 
++
++$('img').on('load', 
++function() {
++  add('.tasty'); 
++  img.style.bordercolor='red';
++})
++
